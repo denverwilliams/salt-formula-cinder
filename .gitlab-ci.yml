@@ -15,4 +15,4 @@ build:
     - iimac-docker
   artifacts:
     paths:
-      - ../build-area/salt-formula*.deb
+      - salt-formula*.deb
