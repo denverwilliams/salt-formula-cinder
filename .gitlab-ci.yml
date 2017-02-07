@@ -12,3 +12,6 @@ build:
     - gbp buildpackage --git-ignore-branch
   tags:
     - iimac-docker
+  artifacts:
+    paths:
+      - ../build-area/salt-formula*.deb
