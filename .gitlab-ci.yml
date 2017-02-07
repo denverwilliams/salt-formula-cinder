@@ -10,6 +10,7 @@ build:
     - git rm -f .gitlab-ci.yml
     - git commit -m 'throw away removal of .gitlab-ci.yml'
     - gbp buildpackage --git-ignore-branch
+    - cp ../build-area/salt-formula-*.deb .
   tags:
     - iimac-docker
   artifacts:
